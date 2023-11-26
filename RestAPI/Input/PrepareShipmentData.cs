@@ -13,8 +13,9 @@ namespace RestAPI
     {
         ///TEST PURPOSES ONLY
         private const string FILE_PATH = @"C:\Users\kacperbok\Desktop\Nauka\C#\RestAPI\RestAPI\test.json";
-
         public Shipment Shipment { get; private set; }
+
+
         public PrepareShipmentData()
         {
             var serializedShipment = File.ReadAllText(FILE_PATH);

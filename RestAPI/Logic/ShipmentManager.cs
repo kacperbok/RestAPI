@@ -15,7 +15,6 @@ namespace RestAPI
             return ServiceSelector.CarrierSelector(); 
         }
 
-
         public static void DeleteShipment(Shipment shipment)
         { 
         

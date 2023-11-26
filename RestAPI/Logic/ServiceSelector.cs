@@ -8,8 +8,7 @@ namespace RestAPI
 {
     public class ServiceSelector
     {
-        public static Shipment CarrierSelector()
-            //there should be PrepareShipmentData object passed in future
+        public static Shipment CarrierSelector() //there should be PrepareShipmentData object passed in future
         {
             PrepareShipmentData deserializedShipment = new PrepareShipmentData();
 
@@ -36,5 +35,6 @@ namespace RestAPI
                 throw new Exception("No ShipmentDefinition found.");
             }     
         }
+
     }
 }

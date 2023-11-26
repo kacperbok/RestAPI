@@ -11,7 +11,6 @@ namespace RestAPI
         public string? ReceiverName1 { get; set; }
         public string? ReceiverName2 { get; set; }
         public string? Identifier { get;  set; }
-        
         public string? ReceiverCity { get;  set; }
         public int? ShipmentId { get;  set; }
         public string? ShipmentDefinition { get;  set; }

@@ -8,12 +8,10 @@ namespace RestAPI
 {
      public class DPDShipmentBuilder : ShipmentBuilder
      {
-
         public void SetIdentifier()
         {
             Shipment.Identifier = DPDIdentcodeBuilder.GenerateIdentcode();
         }
        
-
      }
 }

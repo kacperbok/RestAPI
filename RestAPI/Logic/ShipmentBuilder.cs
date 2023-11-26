@@ -6,14 +6,16 @@ using System.Threading.Tasks;
 
 namespace RestAPI
 {
-      public abstract class ShipmentBuilder 
-      {
+    public abstract class ShipmentBuilder 
+    {
         private Shipment _shipment;
         public Shipment Shipment
         {
             get { return _shipment; }
             protected set { _shipment = value; }
         }
+
+
         public ShipmentBuilder()
         {
             _shipment = new Shipment();
@@ -41,10 +43,7 @@ namespace RestAPI
             return _shipment;
         }
 
-      }
-
-    
-
+    }
 }
 
 

@@ -7,8 +7,6 @@ namespace RestAPI
         static void Main(string[] args)
         {
             ShipmentManager.CreateShipment();
-
-
         }
     }
 }
