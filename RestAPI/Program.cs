@@ -6,7 +6,9 @@ namespace RestAPI
     {
         static void Main(string[] args)
         {
-            ShipmentManager.CreateShipment();
+            DPDRoutingValidator asd = new DPDRoutingValidator();
+            asd.DownloadRoutingData();
+
         }
     }
 }

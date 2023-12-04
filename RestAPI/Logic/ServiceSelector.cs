@@ -8,6 +8,7 @@ namespace RestAPI
 {
     public class ServiceSelector
     {
+
         public static Shipment CarrierSelector() //there should be PrepareShipmentData object passed in future
         {
             PrepareShipmentData deserializedShipment = new PrepareShipmentData();

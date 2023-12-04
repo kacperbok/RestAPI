@@ -11,7 +11,6 @@ namespace RestAPI
         public void SetIdentifier()
         {
             Shipment.Identifier = DPDIdentcodeBuilder.GenerateIdentcode();
-        }
-       
+        }     
      }
 }
