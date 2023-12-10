@@ -21,3 +21,6 @@ C:\Users\kacperbok\Desktop\Nauka\C#\RestAPI\RestAPI\bin\Debug\net6.0\runtimes\wi
 C:\Users\kacperbok\Desktop\Nauka\C#\RestAPI\RestAPI\obj\Debug\net6.0\RestAPI.csproj.AssemblyReference.cache
 C:\Users\kacperbok\Desktop\Nauka\C#\RestAPI\RestAPI\obj\Debug\net6.0\RestAPI.csproj.CopyComplete
 C:\Users\kacperbok\Desktop\Nauka\C#\RestAPI\RestAPI\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\kacperbok\Desktop\Repositories\Private\RestAPI\RestAPI\obj\Debug\net6.0\RestAPI.dll
+C:\Users\kacperbok\Desktop\Repositories\Private\RestAPI\RestAPI\obj\Debug\net6.0\refint\RestAPI.dll
+C:\Users\kacperbok\Desktop\Repositories\Private\RestAPI\RestAPI\obj\Debug\net6.0\RestAPI.pdb

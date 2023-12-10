@@ -33,13 +33,6 @@ namespace RestAPI
                 Console.WriteLine(Shipment.ShipmentExpress);
                 Console.WriteLine("Shipment has been deserialized");
             }
-
-        }
-
-        public static void DeserializeShipmentData()
-        { 
-            
-        }
-      
+        }    
     }
 }

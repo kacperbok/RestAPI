@@ -9,16 +9,15 @@ namespace RestAPI
     public class ServiceSelector
     {
 
-        public static Shipment CarrierSelector() //there should be PrepareShipmentData object passed in future
+        public static Shipment CarrierSelector(PrepareShipmentData deserializedShipment) 
         {
-            PrepareShipmentData deserializedShipment = new PrepareShipmentData();
-
             if (deserializedShipment.Shipment.ShipmentDefinition.Contains("DPD"))
             {
                 DPDShipmentBuilder shipmentBuilder = new DPDShipmentBuilder();
                 shipmentBuilder.SetIdentifier();
                 shipmentBuilder.SetShipmentId();
                 shipmentBuilder.AddReceiverData(deserializedShipment);
+                shipmentBuilder.IsShipmentDG(deserializedShipment);
 
                 return shipmentBuilder.GetShipment();
             }
@@ -28,6 +27,7 @@ namespace RestAPI
                 shipmentBuilder.SetIdentifier();
                 shipmentBuilder.SetShipmentId();
                 shipmentBuilder.AddReceiverData(deserializedShipment);
+                shipmentBuilder.IsShipmentDG(deserializedShipment);
 
                 return shipmentBuilder.GetShipment();
             }

@@ -12,7 +12,8 @@ namespace RestAPI
 
         public static Shipment CreateShipment()
         {
-            return ServiceSelector.CarrierSelector(); 
+            PrepareShipmentData prepareShipmentData = new PrepareShipmentData();
+            return ServiceSelector.CarrierSelector(prepareShipmentData); 
         }
 
         public static void DeleteShipment(Shipment shipment)
